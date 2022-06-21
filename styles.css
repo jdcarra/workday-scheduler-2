@@ -1,7 +1,8 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: antiquewhite;
 }
 
 textarea{
@@ -14,48 +15,58 @@ textarea{
 }
 
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  font-family: 'hind siligurl', sans-serif;
+text-align: center;
+background-color: grey;
+color:wheat;
+border-left: 1px solid black;
+padding: 10px;
+}
+#currentDay {
+  font-size: 32px;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
-
-.time-block{
+ .time-block{
   text-align: center;
-  border-radius: 15px;
-}
-
-.row {
+  border-radius: 15 px;
+ }
+ .row{
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
-}
+  border-top: 1px solid black;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+ }
+ .hour{
+  font-family: inconsolata, momospace;
+  background-color: #06AED5;
+  font-size: 16px;
+  color:#000000;
+  border: 1px solid #000;
+  text-align: center;
+ }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
+ .past {
+  background-color: azure;
+  color:white;
+ }
+ .past {
+  background-color: #d3e3d3;
+  color:white;
+ }
+ .present {
   background-color: #ff6961;
-  color: white;
+  color:white
+ }
+ .future {
+  background-color: #77dd77;
 }
 
-.future {
-  background-color: #77dd77;
-  color: white;
-}
 
 .saveBtn {
   border-left: 1px solid black;
